@@ -2,7 +2,7 @@ const express = require("express");
 const morgan = require("morgan");
 const createError = require("http-errors");
 require("dotenv").config();
-require("./helper/start_database");
+require("./Helper/start_database");
 
 const app = express();
 const liveEventsData = require("./Database/LiveEventsData.Database");
