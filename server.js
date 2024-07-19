@@ -59,7 +59,7 @@ app.post("/saveData", async(req,res,next) => {
         user_answer_status,
         answered_time,
         lifeUsed,
-        level
+        level,
     } = req.body;
 
     console.log(req.body);
@@ -72,7 +72,7 @@ app.post("/saveData", async(req,res,next) => {
             user_answer_status,
             answered_time,
             lifeUsed,
-            level
+            level,
         });
 
         console.log(newLiveData);
