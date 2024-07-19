@@ -58,7 +58,7 @@ app.post("/saveData", async(req,res,next) => {
         user_answer,
         user_answer_status,
         answered_time,
-        lifeUsed,
+        life_used,
         level,
     } = req.body;
 
@@ -71,7 +71,7 @@ app.post("/saveData", async(req,res,next) => {
             user_answer,
             user_answer_status,
             answered_time,
-            lifeUsed,
+            life_used,
             level,
         });
 

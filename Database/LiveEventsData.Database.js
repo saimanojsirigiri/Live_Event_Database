@@ -32,7 +32,7 @@ const liveEventsData = new schema({
     answered_time:{
         type: String,
     }, 
-    lifeUsed:{
+    life_used:{
         type: String,
     },
     level:{
